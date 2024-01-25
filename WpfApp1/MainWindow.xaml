@@ -205,32 +205,32 @@
             <StackPanel.Effect>
                 <DropShadowEffect/>
             </StackPanel.Effect>
-            <Button  Content="New" Width="100" FontSize="20" BorderBrush="#FF707070" Foreground="#FF09CCF7" Background="#0000">
+            <Button  Content="New" Width="100" FontSize="20"  Background="#0000">
                 <Button.Effect>
                     <DropShadowEffect/>
                 </Button.Effect>
             </Button>
-            <Button  Content="Save" Width="100" Foreground="#FF09CCF7" Background="#0000" FontSize="20">
+            <Button  Content="Save" Width="100" Background="#0000" FontSize="20">
                 <Button.Effect>
                     <DropShadowEffect/>
                 </Button.Effect>
             </Button>
-            <Button  Content="Search" Width="100" Foreground="#FF09CCF7" Background="#0000" FontSize="20">
+            <Button  Content="Search" Width="100" Background="#0000" FontSize="20">
                 <Button.Effect>
                     <DropShadowEffect/>
                 </Button.Effect>
             </Button>
-            <Button  Content="Delete" Width="100" Foreground="#FF09CCF7" Background="#0000" FontSize="20">
+            <Button  Content="Delete" Width="100" Background="#0000" FontSize="20">
                 <Button.Effect>
                     <DropShadowEffect/>
                 </Button.Effect>
             </Button>
-            <Button  Content="Print" Width="100" Foreground="#FF09CCF7" Background="#0000" FontSize="20">
+            <Button  Content="Print" Width="100" Background="#0000" FontSize="20">
                 <Button.Effect>
                     <DropShadowEffect/>
                 </Button.Effect>
             </Button>
-            <Button Content="Close" Width="100" Foreground="#FF09CCF7" Background="#0000" FontSize="20">
+            <Button Content="Close" Width="100" Background="#0000" FontSize="20">
                 <Button.Effect>
                     <DropShadowEffect/>
                 </Button.Effect>
