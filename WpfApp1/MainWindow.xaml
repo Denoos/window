@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Write Voucher" Height="600" Width="1200" Background="Orange">
+        Title="Write Voucher" Height="600" Width="1200">
     <Window.Resources>
         <Style TargetType="ComboBox">
             <Setter Property="Margin"
@@ -20,6 +20,9 @@
             Value="1"></Setter>
         </Style>
     </Window.Resources>
+    <Window.Background>
+        <ImageBrush ImageSource="C:\Users\Professional\Downloads\oboi.jpg" />
+    </Window.Background>
 
     <Grid>
         <Grid.ColumnDefinitions>
