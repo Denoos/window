@@ -23,12 +23,12 @@
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="62*"/>
+            <ColumnDefinition Width="138*"/>
+            <ColumnDefinition Width="47*"/>
+            <ColumnDefinition Width="174*"/>
+            <ColumnDefinition Width="79*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
@@ -48,12 +48,12 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <Label Grid.Column ="0" Grid.Row ="1" Content="Voucher Type" Foreground="#FF09CCF7" FontFamily="Bradley Hand ITC" FontSize="20">
+        <Label Grid.Column ="0" Grid.Row ="1" Content="Voucher Type" Foreground="#FF09CCF7" FontSize="20">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <ComboBox Grid.Column="1" Grid.Row="1" BorderBrush="{x:Null}" FontSize="14" FontFamily="Bradley Hand ITC" Background="{x:Null}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}">
+        <ComboBox Grid.Column="1" Grid.Row="1" BorderBrush="{x:Null}" FontSize="14" Background="{x:Null}" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" Margin="3,3,3,3">
             <ComboBox.Effect>
                 <DropShadowEffect/>
             </ComboBox.Effect>
@@ -62,32 +62,32 @@
             <ComboBoxItem Content="3" />
 
         </ComboBox>
-        <Label Grid.Row="2" Content="Debit(Head of Account)" Foreground="#FF09CCF7" FontFamily="Bradley Hand ITC" FontSize="18">
+        <Label Grid.Row="1" Content="Debit(Head of Account)" Foreground="#FF09CCF7" FontSize="18" Margin="0,36,0,36" Grid.RowSpan="3">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <TextBox Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" BorderBrush="{x:Null}" FontSize="14">
+        <TextBox Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" BorderBrush="{x:Null}" FontSize="14" Margin="3,3,3,3">
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <Label Grid.Row="3" Content="Remitted/Paid to" Foreground="#FF09CCF7" FontFamily="Bradley Hand ITC" FontSize="20">
+        <Label Grid.Row="3" Content="Remitted/Paid to" Foreground="#FF09CCF7" FontSize="20">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <TextBox Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" FontSize="14">
+        <TextBox Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" FontSize="14" Margin="3,3,3,3">
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <Label Grid.Row="4" Content="Payment Type:" Foreground="#FF09CCF7" FontSize="20" FontFamily="Bradley Hand ITC">
+        <Label Grid.Row="3" Content="Payment Type:" Foreground="#FF09CCF7" FontSize="20" Margin="0,36,0,36" Grid.RowSpan="3">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <ComboBox Grid.Row="4" Grid.Column="1" FontFamily="Bradley Hand ITC" FontSize="14">
+        <ComboBox Grid.Row="4" Grid.Column="1" FontFamily="Bradley Hand ITC" FontSize="14" Margin="3,3,3,3">
             <ComboBox.Effect>
                 <DropShadowEffect/>
             </ComboBox.Effect>
@@ -96,141 +96,141 @@
             <ComboBoxItem Content="Натура" />
 
         </ComboBox>
-        <Label Grid.Row="7" Content="Amount In Words" Foreground="#FF09CCF7" FontSize="20" FontFamily="Bradley Hand ITC">
+        <Label Grid.Row="7" Content="Amount In Words" Foreground="#FF09CCF7" FontSize="20">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <TextBox Grid.Row="7" Grid.Column="1" Grid.RowSpan="3" Grid.ColumnSpan="3" FontSize="14">
+        <TextBox Grid.Row="7" Grid.Column="1" Grid.RowSpan="3" Grid.ColumnSpan="3" FontSize="14" Margin="3,3,3,3">
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <Label Grid.Row="10" Content="Being" Foreground="#FF09CCF7" FontFamily="Bradley Hand ITC" FontSize="20">
+        <Label Grid.Row="9" Content="Being" Foreground="#FF09CCF7" FontSize="20" Margin="0,36,0,36" Grid.RowSpan="3">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <TextBox Grid.Row="10" Grid.Column="1" Grid.RowSpan="3" Grid.ColumnSpan="3" FontSize="14">
+        <TextBox Grid.Row="10" Grid.Column="1" Grid.RowSpan="3" Grid.ColumnSpan="3" FontSize="14" Margin="3,3,3,3">
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <Label Grid.Column="4" Content="Voucher No:" Foreground="#FF09CCF7" FontFamily="Bradley Hand ITC" FontSize="20">
+        <Label Grid.Column="4" Content="Voucher No:" Foreground="#FF09CCF7" FontSize="20" Margin="0,0,0,36" Grid.RowSpan="2">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <TextBox Grid.Column="5" FontSize="14">
+        <TextBox Grid.Column="5" FontSize="14" Margin="3,3,3,3">
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <Label Grid.Row="1" Grid.Column="4" Content="Date:" Foreground="#FF09CCF7" FontFamily="Bradley Hand ITC" FontSize="20">
+        <Label Grid.Row="1" Grid.Column="4" Content="Date:" Foreground="#FF09CCF7" FontSize="20">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <Label Grid.Column="4" Grid.Row="5" Content="Amount:" Foreground="#FF09CCF7" FontFamily="Bradley Hand ITC" FontSize="20">
+        <Label Grid.Column="4" Grid.Row="5" Content="Amount:" Foreground="#FF09CCF7" FontSize="20">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <TextBox Grid.Row="5" Grid.Column="5" FontSize="14" >
+        <TextBox Grid.Row="5" Grid.Column="5" FontSize="14" Margin="3,3,3,3" >
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <Label Grid.Row="6" Grid.Column="4" Content="Less:" Foreground="#FF09CCF7" FontSize="20" FontFamily="Bradley Hand ITC">
+        <Label Grid.Row="5" Grid.Column="4" Content="Less:" Foreground="#FF09CCF7" FontSize="20" Margin="0,36,0,36" Grid.RowSpan="3">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <TextBox Grid.Row="6" Grid.Column="5" FontSize="14" >
+        <TextBox Grid.Row="6" Grid.Column="5" FontSize="14" Margin="3,3,3,3" >
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <Label Grid.Row="7" Grid.Column="4" Content="Less:" Foreground="#FF09CCF7" FontSize="20" FontFamily="Bradley Hand ITC">
+        <Label Grid.Row="7" Grid.Column="4" Content="Less:" Foreground="#FF09CCF7" FontSize="20" >
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <TextBox Grid.Row="7" Grid.Column="5" FontSize="14" Height="31" Margin="3,0,3,3" VerticalAlignment="Bottom" >
+        <TextBox Grid.Row="7" Grid.Column="5" FontSize="14" Height="31" Margin="3,0,3,0" VerticalAlignment="Center" >
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <Label Grid.Row="9" Grid.Column="4" Content="Add:" Foreground="#FF09CCF7" FontSize="20" FontFamily="Bradley Hand ITC">
+        <Label Grid.Row="9" Grid.Column="4" Content="Add:" Foreground="#FF09CCF7" FontSize="20" >
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <TextBox Grid.Row="9" Grid.Column="5" FontSize="14" >
+        <TextBox Grid.Row="9" Grid.Column="5" FontSize="14" Margin="3,3,3,3" >
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <Label Grid.Row="10" Grid.Column="4" Content="Add:" Foreground="#FF09CCF7" FontFamily="Bradley Hand ITC" FontSize="20">
+        <Label Grid.Row="9" Grid.Column="4" Content="Add:" Foreground="#FF09CCF7" FontSize="20" Margin="0,36,0,36" Grid.RowSpan="3">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <TextBox Grid.Row="10" Grid.Column="5" FontSize="14" >
+        <TextBox Grid.Row="10" Grid.Column="5" FontSize="14" Margin="3,3,3,3" >
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <Label Grid.Row="11" Grid.Column="4" Content="Total Amount:" Foreground="#FF09CCF7" Height="37" VerticalAlignment="Bottom" FontFamily="Bradley Hand ITC" FontSize="20">
+        <Label Grid.Row="11" Grid.Column="4" Content="Total Amount:" Foreground="#FF09CCF7" Height="37" VerticalAlignment="Center" FontSize="20">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <TextBox Grid.Row="11" Grid.Column="5" FontSize="14" >
+        <TextBox Grid.Row="11" Grid.Column="5" FontSize="14" Margin="3,3,3,3" >
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <Label Grid.Row="12" Grid.Column="4" Content="Approved By:" Foreground="#FF09CCF7" FontFamily="Bradley Hand ITC" FontSize="20">
+        <Label Grid.Row="11" Grid.Column="4" Content="Approved By:" Foreground="#FF09CCF7" FontSize="20" Margin="0,36,0,36" Grid.RowSpan="3">
             <Label.Effect>
                 <DropShadowEffect/>
             </Label.Effect>
         </Label>
-        <TextBox Grid.Row="12" Grid.Column="5" FontSize="14" >
+        <TextBox Grid.Row="12" Grid.Column="5" FontSize="14" Margin="3,3,3,3" >
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <StackPanel Grid.Row="14" Grid.Column="1" Grid.ColumnSpan="5" Orientation="Horizontal" Margin="3" >
+        <StackPanel Grid.Row="14" Grid.Column="1" Grid.ColumnSpan="5" Orientation="Horizontal" Margin="3,3,3,3" >
             <StackPanel.Effect>
                 <DropShadowEffect/>
             </StackPanel.Effect>
-            <Button  Content="New" Width="100" FontFamily="Bradley Hand ITC" FontSize="20" BorderBrush="#FF707070" Foreground="#FF09CCF7" Background="#FF1D2B70">
+            <Button  Content="New" Width="100" FontSize="20" BorderBrush="#FF707070" Foreground="#FF09CCF7" Background="#0000">
                 <Button.Effect>
                     <DropShadowEffect/>
                 </Button.Effect>
             </Button>
-            <Button  Content="Save" Width="100" Foreground="#FF09CCF7" Background="#FF1D2B70" FontFamily="Bradley Hand ITC" FontSize="20">
+            <Button  Content="Save" Width="100" Foreground="#FF09CCF7" Background="#0000" FontSize="20">
                 <Button.Effect>
                     <DropShadowEffect/>
                 </Button.Effect>
             </Button>
-            <Button  Content="Search" Width="100" Foreground="#FF09CCF7" Background="#FF1D2B70" FontFamily="Bradley Hand ITC" FontSize="20">
+            <Button  Content="Search" Width="100" Foreground="#FF09CCF7" Background="#0000" FontSize="20">
                 <Button.Effect>
                     <DropShadowEffect/>
                 </Button.Effect>
             </Button>
-            <Button  Content="Delete" Width="100" Foreground="#FF09CCF7" Background="#FF1D2B70" FontFamily="Bradley Hand ITC" FontSize="20">
+            <Button  Content="Delete" Width="100" Foreground="#FF09CCF7" Background="#0000" FontSize="20">
                 <Button.Effect>
                     <DropShadowEffect/>
                 </Button.Effect>
             </Button>
-            <Button  Content="Print" Width="100" Foreground="#FF09CCF7" Background="#FF1D2B70" FontFamily="Bradley Hand ITC" FontSize="20">
+            <Button  Content="Print" Width="100" Foreground="#FF09CCF7" Background="#0000" FontSize="20">
                 <Button.Effect>
                     <DropShadowEffect/>
                 </Button.Effect>
             </Button>
-            <Button Content="Close" Width="100" Foreground="#FF09CCF7" Background="#FF1D2B70" FontSize="20" FontFamily="Bradley Hand ITC">
+            <Button Content="Close" Width="100" Foreground="#FF09CCF7" Background="#0000" FontSize="20">
                 <Button.Effect>
                     <DropShadowEffect/>
                 </Button.Effect>
