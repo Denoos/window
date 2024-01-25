@@ -21,7 +21,7 @@
         </Style>
     </Window.Resources>
     <Window.Background>
-        <ImageBrush ImageSource="C:\Users\Professional\Downloads\oboi.jpg" />
+        <ImageBrush ImageSource="C:\Users\Professional\Downloads\f.jpg" />
     </Window.Background>
 
     <Grid>
